@@ -1,0 +1,96 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#card-car{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    height: 200px;
+     justify-content: space-evenly;
+     flex-wrap: wrap; 
+   
+}
+.card-div-main{
+
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+   box-shadow: 0px 1px 1px  gray;
+    margin-top:10px ;
+    margin-bottom:10px ;
+    height: 280px;
+    width:200px ;
+   border-radius: 10px; 
+    background-color: #fff;
+}
+.card-div-main:hover{
+    height: 290px;
+    width:220px ;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.image-div {
+    /* border: solid; */
+    width:  99.5%;
+    display: flex;
+    justify-content: center;
+      box-shadow: 0px 1px 0px 0px gray;
+}
+.image-div img{
+    width: 90%;
+    height: 130px;
+    object-fit: contain;
+  
+    /* border-bottom: solid; */
+}
+
+.image-div img:hover{
+    width: 97%;
+ 
+}
+.car-name{
+    margin-top: 10px;
+    font-size: 20px;
+    color: green;
+}
+.car-name:hover{
+    font-size: 23px;
+    cursor: pointer;
+}
+.city-name{
+    color: gray;
+}
+/* navbar */
+.nav-bar{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.image-logo{
+    object-fit: contain;
+    width: 6%;
+}
+
+.price{
+    color: blue;
+}
+#logos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#logos img{
+
+    width: 70%;
+    object-fit: contain;
+}
+.body{
+   background-color:#f6f6f6;
+}
+/* reponsiveness css */
