@@ -85,6 +85,10 @@ li{
     display: flex;
     justify-content: center;
 }
+.logos-company{
+    display: flex;
+    justify-content: center;
+}
 #logos img{
 
     width: 70%;
